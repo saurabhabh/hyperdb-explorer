@@ -1,0 +1,23 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+/* You can add global styles to this file, and also import other style files */
+html, body {
+  margin: 0;
+  padding: 0;
+
+  height: 100%;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+} 
+
+.alignVertical{
+  display: flex;
+  flex-direction: column;
+}
+
+.alignHorizontal{
+  display: flex;
+  flex-direction: row;
+}

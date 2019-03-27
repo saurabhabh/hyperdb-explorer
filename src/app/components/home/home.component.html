@@ -1,0 +1,38 @@
+<div *ngIf='!isExploring' class="alignVertical" style="justify-content: center; align-items: center; height: 100%;">
+        <mat-label>Select Hyper DB</mat-label>
+        <h1> {{electronservice.folder}}</h1>
+        <div>
+          <button mat-button color="primary" (click)="browseDB()">Browse Directory</button>
+          <button mat-button color="primary" (click)="exploreDB()">Explore</button>
+        </div>
+</div>
+<div *ngIf='isExploring' class="alignVertical" >
+  <div *ngIf="isLoading">
+
+    <mat-label>Loading DB .... </mat-label>
+  </div>
+      
+  
+  <div *ngIf="!isLoading" class="alignVertical">
+      <div class="alignHorizontal">
+        <div style="flex:0.9">
+          <mat-form-field style="width:100%;">
+            <mat-label>Filter DB</mat-label>
+            <input matInput placeholder="Filter Value" #filterValue (change)="updateNodes($event.target.value)">
+          </mat-form-field>
+        </div>
+        <button style="flex:0.1" mat-button color="primary" (click)="filerClicked(filterValue.value)">Filter</button>
+      </div>
+      
+      <mat-nav-list>
+        <mat-list-item *ngFor="let node of nodes">
+          {{node.key}}
+          <span class="example-spacer"></span>
+          <button mat-button color="primary" (click)="viewClicked(node)">View</button>
+          <mat-divider></mat-divider>
+        </mat-list-item>
+      </mat-nav-list>
+  </div>
+  
+</div>
+
