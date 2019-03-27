@@ -1,6 +1,6 @@
 {
-  "name": "Hyper DB Explorer",
-  "version": "0.1",
+  "name": "hyperdbexplorer",
+  "version": "1.0.0",
   "description": "Angular Electron Hyper DB Explorer",
   "homepage": "https://github.com/saurabhabh/hyperdb-explorer",
   "author": {
