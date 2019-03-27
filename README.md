@@ -4,7 +4,7 @@
 
 # Introduction
 
-A small application which you can your to explore/browse your Hyper db. 
+A small application which you can use to explore/browse your Hyper db. 
 
 Currently runs with:
 
@@ -19,4 +19,14 @@ With this sample, you can :
 - Browse
 - View Details of a Node via Key. 
 
+
+# Snapshots
+
+![1](https://user-images.githubusercontent.com/8706481/55074554-9e342c00-50b6-11e9-9006-93b691ad7e21.png)
+
+![2](https://user-images.githubusercontent.com/8706481/55074726-14389300-50b7-11e9-9a41-ac0e8b4a0200.png)
+
+![image](https://user-images.githubusercontent.com/8706481/55074792-3e8a5080-50b7-11e9-85d7-b1b847db5bb2.png)
+
+![image](https://user-images.githubusercontent.com/8706481/55074852-65e11d80-50b7-11e9-87ae-bd5449a061f0.png)
 
